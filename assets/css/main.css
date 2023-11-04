@@ -1,11 +1,7 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
 
-/*
-	Prologue by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+/* Main color change: #dd9199 ->#dea6ac */
 
 html,
 body,
@@ -1989,8 +1985,8 @@ form input[type="email"]:focus,
 form input[type="password"]:focus,
 form select:focus,
 form textarea:focus {
-	/* old: #8ebebc 8a76e2 9827ed*/
-	box-shadow: 0 0 2px 1px #a547ed;
+	/* #dd9199 ->#dea6ac */
+	box-shadow: 0 0 2px 1px #dd9199;
 	background: #fff;
 }
 
@@ -2069,8 +2065,7 @@ button,
 	color: #fff !important;
 	text-decoration: none;
 	padding: 0.75em 2.5em 0.75em 2.5em;
-	/* 8ebebc 8a76e2 9827ed*/
-	background-color: #a547ed;
+	background-color: #dd9199;
 	border: 0;
 	cursor: pointer;
 	background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
@@ -2088,7 +2083,7 @@ input[type="submit"]:hover,
 input[type="reset"]:hover,
 button:hover,
 .button:hover {
-	background-color: #ed47e2;
+	background-color: #dea6ac;
 }
 
 input[type="button"]:active,
@@ -2096,7 +2091,7 @@ input[type="submit"]:active,
 input[type="reset"]:active,
 button:active,
 .button:active {
-	background-color: #ed47e2;
+	background-color: #dea6ac;
 }
 
 /* Item */
@@ -2205,7 +2200,8 @@ button:active,
 }
 
 #header .icons a {
-	color: #a547ed;
+	/* #dd9199 ->#dea6ac */
+	color: #dd9199;
 	-moz-transition: color 0.35s ease-in-out;
 	-webkit-transition: color 0.35s ease-in-out;
 	-ms-transition: color 0.35s ease-in-out;
@@ -2213,7 +2209,7 @@ button:active,
 }
 
 #header .icons a:hover {
-	color: #ed47e2;
+	color: #dea6ac;
 }
 
 
@@ -2293,7 +2289,7 @@ button:active,
 
 #nav ul li a.active span:before {
 	/*8a76e2 9827ed */
-	color: #a547ed;
+	color: #dd9199;
 }
 
 /* Footer */
@@ -2375,7 +2371,7 @@ button:active,
 }
 
 #main>section.one {
-	background-color: #81918E;
+	background-color: #ffffff;
 	background-image: url("../../images/banner.jpg");
 }
 
